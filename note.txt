@@ -1,0 +1,11 @@
+This system is designed for a single beneificiary with multiple donors.
+ - Contract folder also contains registerMultipleTenders.sol which can create 
+  required instances of bcs.sol so that we can register multiple tenders.
+
+for multiple tenders:
+     #using concept of class and objects:
+        -each objects is deployed by a parent object which will contain the address of deployed object.
+        -here,contract can be termed as a class where contract (registerTenders contract ie.bcs) instances
+         are created by (registerMultipleTenders)
+        contract.
+        

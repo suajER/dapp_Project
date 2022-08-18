@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: orange;
+}
+
+.App {
+  text-align: center;
+  height: 150vh;
+  font-size: 20px;
+  font-weight: 100;
+  word-spacing: 1px;
+  line-height: 1.45em;
+  font-family: "Ubuntu", "Sharp Sans No1", Sans-serif;
+  background-color: white;
+  background-size: cover;
+  background-position: top;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: orange;
+}
+
+.App-link {
+  color: #111312;
+}
+
+.main-page {
+  padding-top: 20px;
+}
+
+.home-nav {
+  margin-top: -20px;
+  height: 50;
+  background-color: orange;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.sign-up {
+  
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.signup-form {
+  padding-top: 60px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+}
+
+.signin-onUp {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.home-page {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 30px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+ .container{
+   margin:50 px;
+   height:200px;
+   
+ }
+
