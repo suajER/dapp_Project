@@ -1,3 +1,3 @@
-# dapp_Project is based on crowd funding concept.
+# Please check code on master branch. 
 It is called blockchain based charity system. 
 Solidity, web3.js and React.js were 
