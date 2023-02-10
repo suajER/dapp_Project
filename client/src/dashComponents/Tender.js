@@ -1,17 +1,12 @@
-
 import React, { useState } from 'react';
 import { PdfUpload } from 'react-ipfs-uploader';
 import swal from 'sweetalert';
 
-
-
-
- const Tender=(props) =>{
+const Tender=(props) =>{
+ 
   const [pdfUrl, setPdfUrl] = useState('')
   const [target, setTarget] = useState('')
   const [min, setMin] = useState('')
-  
-
 
   const submitHandler = async() => {
     alert('Are you sure to deploy your tender ?');
@@ -48,9 +43,7 @@ import swal from 'sweetalert';
       <PdfUpload setUrl={setPdfUrl} />
       <button className='ui button blue' onClick={submitHandler} >Create Tender</button>
       {console.log("account=",props.account)}
-
-        
-         </div>
+</div>
   
   );
 }
